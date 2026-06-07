@@ -12,6 +12,7 @@ gpg:
   - --passphrase
   - {{ $passphrase | quote }}
   - --no-symkey-cache
+  - --quiet
 
 add:
   encrypt: true
